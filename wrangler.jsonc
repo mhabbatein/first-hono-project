@@ -2,13 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "first-hono-project",
   "main": "src/index.ts",
-  "compatibility_date": "2025-03-17"
-  // "compatibility_flags": [
-  //   "nodejs_compat"
-  // ],
-  // "vars": {
-  //   "MY_VAR": "my-variable"
-  // },
+  "compatibility_date": "2025-03-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "DATABASE_URL": "postgresql://neondb_owner:npg_o03mTULjztIC@ep-shiny-frog-a1gmtqaz-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+  }
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
