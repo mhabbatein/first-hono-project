@@ -10,7 +10,7 @@ app.get('/hello/:name', (c) => {
   const name = c.req.param('name');
   return c.json({
     ok: true,
-    message: `Hello ${name}!`,
+    message: `Hello yang bernama ${name}!`,
   });
 });
 
